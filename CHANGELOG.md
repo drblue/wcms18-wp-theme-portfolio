@@ -78,16 +78,16 @@
               - Revert to Gulp 3.x support
 
 
-            - ** Maintenance Release 0.8.4 July 16th 2018 **  
+            - ** Maintenance Release 0.8.4 July 16th 2018 **
               - Update to Bootstrap 4
               - fixing sidebar.php problem
               - Revert to Gulp 3.x support
 
 
-            - ** Release 0.8.3 July 3rd 2018 **  
-              - Update to Bootstrap 4.1.1   
+            - ** Release 0.8.3 July 3rd 2018 **
+              - Update to Bootstrap 4.1.1
               - Update to Gulp 4
-              - Moving closing primary </div> into right-sidebar-check.php    
+              - Moving closing primary </div> into right-sidebar-check.php
               - Adding hero canvas widget pos
               - Swap customized walker to latest upstream wp-bootstrap-navwalker class - Thx @pattonwebz
               - gulp-rev - Thx @0dp
@@ -157,7 +157,7 @@
               - Removing duplicate code
               - Resort theme-settings.php
               - Cleaning functions.php
-              - Changing licensing infos        
+              - Changing licensing infos
 
             - ** Release 0.6.10 December 4th 2017 **
               - Hotfix release
@@ -168,14 +168,14 @@
               - Update prefixes
               - Remove automatically db updates by theme
               - Rename and streamline functions
-              - Changing WooCommerce text domain to "understrap"
+              - Changing WooCommerce text domain to "myportfolio"
               - Disable theme-settings.php call
               - Remove jQuery 3.2.1 slim and switch back to WP core jQuery version
               - Update Bootstrap 4 Beta 2 to commit which fixes jQuery conflict
 
             - ** Release 0.6.8 November 27th 2017 **
               - Theme check updates
-              - Bugfix release            
+              - Bugfix release
 
 
             - ** Release 0.6.7 November 24th 2017 **

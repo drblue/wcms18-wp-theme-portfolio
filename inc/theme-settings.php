@@ -2,34 +2,34 @@
 /**
  * Check and setup theme's default settings
  *
- * @package understrap
+ * @package myportfolio
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-if ( ! function_exists( 'understrap_setup_theme_default_settings' ) ) {
-	function understrap_setup_theme_default_settings() {
+if ( ! function_exists( 'myportfolio_setup_theme_default_settings' ) ) {
+	function myportfolio_setup_theme_default_settings() {
 
 		// check if settings are set, if not set defaults.
 		// Caution: DO NOT check existence using === always check with == .
 		// Latest blog posts style.
-		$understrap_posts_index_style = get_theme_mod( 'understrap_posts_index_style' );
-		if ( '' == $understrap_posts_index_style ) {
-			set_theme_mod( 'understrap_posts_index_style', 'default' );
+		$myportfolio_posts_index_style = get_theme_mod( 'myportfolio_posts_index_style' );
+		if ( '' == $myportfolio_posts_index_style ) {
+			set_theme_mod( 'myportfolio_posts_index_style', 'default' );
 		}
 
 		// Sidebar position.
-		$understrap_sidebar_position = get_theme_mod( 'understrap_sidebar_position' );
-		if ( '' == $understrap_sidebar_position ) {
-			set_theme_mod( 'understrap_sidebar_position', 'right' );
+		$myportfolio_sidebar_position = get_theme_mod( 'myportfolio_sidebar_position' );
+		if ( '' == $myportfolio_sidebar_position ) {
+			set_theme_mod( 'myportfolio_sidebar_position', 'right' );
 		}
 
 		// Container width.
-		$understrap_container_type = get_theme_mod( 'understrap_container_type' );
-		if ( '' == $understrap_container_type ) {
-			set_theme_mod( 'understrap_container_type', 'container' );
+		$myportfolio_container_type = get_theme_mod( 'myportfolio_container_type' );
+		if ( '' == $myportfolio_container_type ) {
+			set_theme_mod( 'myportfolio_container_type', 'container' );
 		}
 	}
 }

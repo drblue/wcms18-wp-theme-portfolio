@@ -1,19 +1,19 @@
 
-Start talking: [![Gitter](https://img.shields.io/gitter/room/holger1411/understrap.svg?maxAge=2592000?style=flat-square)](https://gitter.im/holger1411/understrap)
+Start talking: [![Gitter](https://img.shields.io/gitter/room/holger1411/myportfolio.svg?maxAge=2592000?style=flat-square)](https://gitter.im/holger1411/myportfolio)
 
 ## About
 
 I’m a huge fan of Underscores, Bootstrap, and Sass. Why not combine these into a solid WordPress Theme Framework?
-That’s what UnderStrap is. 
+That’s what UnderStrap is.
 You can use it as starter theme and build your own theme on top of it. Or you use it as parent theme and create your own child theme for UnderStrap.
 
 At the moment, UnderStrap is in a very early stage. But if you want, feel free to use it for your own WordPress theme!
 
 # UnderStrap WordPress Theme Framework
 
-Website: [https://understrap.com](https://understrap.com)
+Website: [https://myportfolio.com](https://myportfolio.com)
 
-Child Theme Project: [https://github.com/holger1411/understrap-child](https://github.com/holger1411/understrap-child)
+Child Theme Project: [https://github.com/holger1411/myportfolio-child](https://github.com/holger1411/myportfolio-child)
 
 ## License
 UnderStrap WordPress Theme, Copyright 2013-2017 Holger Koenemann
@@ -30,7 +30,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
                   - Fixing problem with empty folders after "gulp dist" - Thx @alwizo
                   - Fixed custom logo function typo - Thx @willgorham
 
-                  
+
             - ** 0.4.8 Oct. 10th 2016 **
                   - Removing Bower and replace the dependency managment with npm
                   - Update to Bootstrap 4 Alpha 4
@@ -55,7 +55,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
             - ** 0.4.5 Jun. 20th 2016 **
                   - Adding right sanitizing function for customizer
                   - Fixing some escaping problems
-                  - Removing "add script" customizer function 
+                  - Removing "add script" customizer function
                   - Calling all sidebars with "get_sidebar"
                   - Load hero area on index.php conditionally
                   - Remove unused code, files and dependencies
@@ -148,7 +148,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 - Comes with extra slider script by [Owl Carousel](http://www.owlcarousel.owlgraphic.com/) (v2.1.4)
 - Jetpack ready.
 - WooCommerce support.
-- [Child Theme](https://github.com/holger1411/understrap-child) ready.
+- [Child Theme](https://github.com/holger1411/myportfolio-child) ready.
 - Translation ready.
 
 ## Starter Theme + HTML Framework = WordPress Theme Framework
@@ -164,7 +164,7 @@ Some basics about the Sass and CSS files that come with UnderStrap:
 
                   - 1 "theme/theme_variables";  // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap or UnderStrap variables here
                   - 2 "../src/bootstrap-sass/assets/stylesheets/bootstrap";  // <--------- All the Bootstrap stuff - Don´t edit this!
-                  - 3 "understrap/understrap"; // <--------- Some basic WordPress stylings and needed styles to combine Boostrap and Underscores
+                  - 3 "myportfolio/myportfolio"; // <--------- Some basic WordPress stylings and needed styles to combine Boostrap and Underscores
                   - 4 "../src/fontawesome/scss/font-awesome"; // <--------- Font Awesome Icon styles
 
                   // Any additional imported files //
@@ -175,8 +175,8 @@ Some basics about the Sass and CSS files that come with UnderStrap:
 
 ## Installation
 
-- Download the understrap folder from GitHub or from understrap.com
-- IMPORTANT: If you download it from GitHub make sure you rename the "understrap-master.zip" file just to "understrap.zip" or you might have problems using child themes !!
+- Download the myportfolio folder from GitHub or from myportfolio.com
+- IMPORTANT: If you download it from GitHub make sure you rename the "myportfolio-master.zip" file just to "myportfolio.zip" or you might have problems using child themes !!
 - Upload it into your WordPress installation subfolder here: `/wp-content/themes/`
 - Login to your WordPress backend
 - Go to Appearance → Themes

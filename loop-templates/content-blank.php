@@ -2,7 +2,7 @@
 /**
  * Blank content partial template.
  *
- * @package understrap
+ * @package myportfolio
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

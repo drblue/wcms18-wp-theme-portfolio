@@ -2,7 +2,7 @@
 /**
  * The sidebar containing the main widget area.
  *
- * @package understrap
+ * @package myportfolio
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
